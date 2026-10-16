@@ -1,0 +1,19 @@
+{
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "rayyanhasib/cs5326-pa2-repo"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": [],
+  "id": "rayyanhasib/cs5326-pa2-lora",
+  "title": "cs5326-pa2-lora",
+  "code_file": "cs5326-pa2-lora.ipynb",
+  "machine_shape": "NvidiaTeslaT4"
+}

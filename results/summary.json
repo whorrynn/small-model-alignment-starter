@@ -1,0 +1,191 @@
+{
+  "sft": {
+    "base_val_loss": 344.79634414672853,
+    "highest_val_loss": 353.07940428161623,
+    "best_step": 900,
+    "best_val_loss": 339.16305993652344,
+    "final_step": 938,
+    "final_val_loss": 339.1525432662964
+  },
+  "dpo_hh_rlhf": {
+    "step0": {
+      "step": 0,
+      "dpo_loss": 0.6931471824645996,
+      "reward_accuracy": 0.0,
+      "reward_margin": 0.0
+    },
+    "best_step": 450,
+    "best": {
+      "dpo_loss": 0.652704115152359,
+      "reward_accuracy": 0.6180000305175781,
+      "reward_margin": 0.1982724666595459
+    },
+    "final": {
+      "step": 469,
+      "dpo_loss": 0.6543579771518707,
+      "reward_accuracy": 0.6230000257492065,
+      "reward_margin": 0.19322378933429718,
+      "final": true
+    }
+  },
+  "dpo_ultrafeedback": {
+    "step0": {
+      "step": 0,
+      "dpo_loss": 0.6931471824645996,
+      "reward_accuracy": 0.0,
+      "reward_margin": 0.0
+    },
+    "best_step": 450,
+    "best": {
+      "dpo_loss": 0.5898077383637428,
+      "reward_accuracy": 0.6640000343322754,
+      "reward_margin": 0.4748730957508087
+    },
+    "final": {
+      "step": 469,
+      "dpo_loss": 0.5889120241999626,
+      "reward_accuracy": 0.6620000600814819,
+      "reward_margin": 0.4812134802341461,
+      "final": true
+    }
+  },
+  "lora_persona": {
+    "first_train_loss": 0.6592,
+    "last_train_loss": 0.1427,
+    "eval_loss": 0.1865309327840805,
+    "eval_reward_accuracy": 1.0,
+    "eval_reward_margin": 1.739657719930013
+  },
+  "judging": {
+    "hh_rlhf": {
+      "sample_count": 300,
+      "unique_ids_judged": 300,
+      "wins": 133,
+      "losses": 78,
+      "ties": 89,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_ties_half": 0.5916666666666667,
+      "win_rate_ci95": 0.046380757392065215,
+      "win_rate_excl_ties": 0.6303317535545023,
+      "sign_test_p": 0.0001528725268075772,
+      "mapping_mismatches": 0,
+      "dpo_in_slot_a": 149,
+      "judge_picked_a_among_non_ties": 0.5687203791469194,
+      "unique_prompts": 185,
+      "repeated_prompts": 71,
+      "repeated_prompts_with_inconsistent_verdicts": 15,
+      "dedup_win_rate": 0.5792792792792794,
+      "dedup_win_rate_ci95": 0.055699177770230326,
+      "identical_sft_dpo_outputs": 8,
+      "sft_output_stats": {
+        "mean_words": 141.54,
+        "hit_256_token_cap": 0.41,
+        "repetitive": 0.33,
+        "refusal_phrase": 0.03333333333333333
+      },
+      "dpo_output_stats": {
+        "mean_words": 119.28666666666666,
+        "hit_256_token_cap": 0.24,
+        "repetitive": 0.29333333333333333,
+        "refusal_phrase": 0.07
+      },
+      "per_category": {
+        "benign_helpfulness": {
+          "wins": 19,
+          "losses": 10,
+          "ties": 1,
+          "win_rate_ties_half": 0.65
+        },
+        "calibration_and_uncertainty": {
+          "wins": 8,
+          "losses": 10,
+          "ties": 12,
+          "win_rate_ties_half": 0.4666666666666667
+        },
+        "cyber_abuse": {
+          "wins": 13,
+          "losses": 1,
+          "ties": 16,
+          "win_rate_ties_half": 0.7
+        },
+        "harmful_instructions": {
+          "wins": 8,
+          "losses": 9,
+          "ties": 13,
+          "win_rate_ties_half": 0.48333333333333334
+        },
+        "hate_or_harassment": {
+          "wins": 10,
+          "losses": 4,
+          "ties": 16,
+          "win_rate_ties_half": 0.6
+        },
+        "legal_financial_safety": {
+          "wins": 12,
+          "losses": 12,
+          "ties": 6,
+          "win_rate_ties_half": 0.5
+        },
+        "medical_safety": {
+          "wins": 24,
+          "losses": 2,
+          "ties": 4,
+          "win_rate_ties_half": 0.8666666666666667
+        },
+        "privacy_and_doxxing": {
+          "wins": 10,
+          "losses": 7,
+          "ties": 13,
+          "win_rate_ties_half": 0.55
+        },
+        "safe_transformation": {
+          "wins": 11,
+          "losses": 11,
+          "ties": 8,
+          "win_rate_ties_half": 0.5
+        },
+        "self_harm_support": {
+          "wins": 18,
+          "losses": 12,
+          "ties": 0,
+          "win_rate_ties_half": 0.6
+        }
+      }
+    },
+    "ultrafeedback": {
+      "sample_count": 300,
+      "unique_ids_judged": 300,
+      "wins": 100,
+      "losses": 125,
+      "ties": 75,
+      "unknown": 0,
+      "failures": 0,
+      "win_rate_ties_half": 0.4583333333333333,
+      "win_rate_ci95": 0.04885411206922189,
+      "win_rate_excl_ties": 0.4444444444444444,
+      "sign_test_p": 0.0955807045456294,
+      "mapping_mismatches": 0,
+      "dpo_in_slot_a": 149,
+      "judge_picked_a_among_non_ties": 0.6444444444444445,
+      "unique_prompts": 300,
+      "repeated_prompts": 0,
+      "repeated_prompts_with_inconsistent_verdicts": 0,
+      "dedup_win_rate": 0.4583333333333333,
+      "dedup_win_rate_ci95": 0.04885411206922189,
+      "identical_sft_dpo_outputs": 14,
+      "sft_output_stats": {
+        "mean_words": 125.73,
+        "hit_256_token_cap": 0.3333333333333333,
+        "repetitive": 0.26,
+        "refusal_phrase": 0.02
+      },
+      "dpo_output_stats": {
+        "mean_words": 151.09333333333333,
+        "hit_256_token_cap": 0.49333333333333335,
+        "repetitive": 0.29333333333333333,
+        "refusal_phrase": 0.013333333333333334
+      }
+    }
+  }
+}

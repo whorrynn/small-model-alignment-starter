@@ -1,0 +1,8 @@
+{
+  "step": 450,
+  "metrics": {
+    "dpo_loss": 0.652704115152359,
+    "reward_accuracy": 0.6180000305175781,
+    "reward_margin": 0.1982724666595459
+  }
+}

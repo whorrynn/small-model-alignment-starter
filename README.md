@@ -41,6 +41,28 @@ You will add your own training and evaluation code on top of this starter. At mi
 
 Read `docs/assignment_manual.pdf` for the full requirements and suggested workflow.
 
+### Local scaffold
+
+This checkout has been extended with a full `src/`, `scripts/`, and
+`REPORT.md` scaffold on top of the bare starter package above, mirroring the
+`src/` + `tests/adapters.py` boundary used in PA1. Every function that needs
+real implementation is a `TODO`-documented `NotImplementedError` stub citing
+the exact manual section it satisfies; nothing in it is pre-solved.
+
+- **`IMPLEMENTATION_PLAN.md`** -- the order to implement things in, and why.
+- **`src/`** -- all training/eval logic (`prompt_format.py`, `batching.py`,
+  `logprobs.py`, `losses.py`, `data_sft.py`, `data_dpo.py`, `checkpoint.py`,
+  `sft_train.py`, `dpo_train.py`, `lora_persona_train.py`, `generation.py`,
+  `alpaca_eval_subset.py`, `pairwise.py`, `judging.py`, `plot_metrics.py`,
+  `config.py`, `utils.py`). `submission_adapter.py` is already wired to
+  delegate into `src/batching.py`, `src/logprobs.py`, and `src/losses.py` --
+  once those pass the public tests, the adapter needs no further edits.
+- **`scripts/`** -- one CLI entry point per manual task (`task1_setup_check.py`
+  through `judge_pairwise_kaggle.py`, the latter matching the manual's exact
+  example invocation).
+- **`REPORT.md`** -- pre-filled with the manual's Section 14.1-14.7 headings
+  and a results-at-a-glance table.
+
 ## Submission Adapter And Public Tests
 
 Keep the six function signatures in `submission_adapter.py` unchanged. Implement

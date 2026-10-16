@@ -1,0 +1,121 @@
+[{"stream_name":"stderr","time":5.318284271,"data":"/usr/local/lib/python3.13/dist-packages/nbformat/validator.py:434: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":5.31832033,"data":"  _validate(nbdict, ref, version, version_minor, relax_add_props)\n"}
+,{"stream_name":"stderr","time":6.11273919,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.112766899,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.112772323,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.112776192,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":6.660583685,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":6.660606443,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":6.660611225,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":6.660615359,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.102003694,"data":"Tue Oct 13 04:51:48 2026       \n"}
+,{"stream_name":"stdout","time":8.102051798,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":8.102057418,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":8.102061522,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":8.102065984,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":8.102070282,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":8.102074283,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":8.102078068,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":8.102081952,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":8.102085764,"data":"| N/A   37C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":8.102089663,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":8.102093442,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":8.102097402,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":8.102106362,"data":"| N/A   39C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":8.10211125,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":8.102129307,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":8.102133546,"data":"\n"}
+,{"stream_name":"stdout","time":8.102136796,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":8.102140756,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":8.102145062,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":8.102148996,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":8.102153161,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":8.102156759,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":8.102162376,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":8.102166884,"data":"\n"}
+,{"stream_name":"stdout","time":9.686645794,"data":"Note: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":11.170259231,"data":"\u001b[?25l     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/44.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K     \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m44.0/44.0 kB\u001b[0m \u001b[31m2.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12.94391276,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.0 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m5.1/12.0 MB\u001b[0m \u001b[31m153.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━\u001b[0m \u001b[32m11.3/12.0 MB\u001b[0m \u001b[31m184.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m172.6 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.0/12.0 MB\u001b[0m \u001b[31m91.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12.943947257,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/566.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m566.4/566.4 kB\u001b[0m \u001b[31m30.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":12.995458809,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/945.8 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m945.8/945.8 kB\u001b[0m \u001b[31m37.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":13.350275967,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/43.1 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m7.1/43.1 MB\u001b[0m \u001b[31m212.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m14.0/43.1 MB\u001b[0m \u001b[31m200.4 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m22.5/43.1 MB\u001b[0m \u001b[31m234.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━━━━━━━━━\u001b[0m \u001b[32m30.7/43.1 MB\u001b[0m \u001b[31m236.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[90m╺\u001b[0m\u001b[90m━━━\u001b[0m \u001b[32m39.0/43.1 MB\u001b[0m \u001b[31m239.5 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m245.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m245.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m245.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m245.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m245.9 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m43.1/43.1 MB\u001b[0m \u001b[31m50.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":13.40127815,"data":"\u001b[?25h\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.3 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m234.1 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.3/3.3 MB\u001b[0m \u001b[31m91.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":28.644715026,"data":"\u001b[?25h\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":28.644752126,"data":"gradio 6.26.0 requires huggingface-hub\u003c2.0,\u003e=1.16.0, but you have huggingface-hub 0.36.2 which is incompatible.\r\n"}
+,{"stream_name":"stdout","time":28.644755992,"data":"diffusers 0.40.0 requires huggingface-hub\u003c2.0,\u003e=1.23.0, but you have huggingface-hub 0.36.2 which is incompatible.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":28.822284142,"data":"\u001b[0mNote: you may need to restart the kernel to use updated packages.\n"}
+,{"stream_name":"stdout","time":28.8449793,"data":"/kaggle/input\n"}
+,{"stream_name":"stdout","time":28.845035667,"data":"/kaggle/input/datasets\n"}
+,{"stream_name":"stdout","time":28.845044905,"data":"/kaggle/input/datasets/rayyanhasib\n"}
+,{"stream_name":"stdout","time":28.845049371,"data":"/kaggle/input/datasets/rayyanhasib/cs5326-pa2-repo\n"}
+,{"stream_name":"stdout","time":28.895370296,"data":"/kaggle/input/notebooks\n"}
+,{"stream_name":"stdout","time":28.895394711,"data":"/kaggle/input/notebooks/rayyanhasib\n"}
+,{"stream_name":"stdout","time":28.89539792,"data":"/kaggle/input/notebooks/rayyanhasib/cs5326-pa2-sft-run\n"}
+,{"stream_name":"stdout","time":29.022354153,"data":"repo dataset found at /kaggle/input/datasets/rayyanhasib/cs5326-pa2-repo\n"}
+,{"stream_name":"stdout","time":34.305913512,"data":"torch 2.11.0+cu128\n"}
+,{"stream_name":"stdout","time":38.246632824,"data":"transformers 4.57.6\n"}
+,{"stream_name":"stdout","time":40.450549692,"data":"datasets 4.8.5\n"}
+,{"stream_name":"stdout","time":65.28895046,"data":"peft 0.20.0\n"}
+,{"stream_name":"stdout","time":71.282025642,"data":"trl 1.15.0\n"}
+,{"stream_name":"stdout","time":71.335899901,"data":"Using SFT checkpoint: /kaggle/input/notebooks/rayyanhasib/cs5326-pa2-sft-run/project/outputs/sft/sft_run/checkpoints/best\n"}
+,{"stream_name":"stdout","time":71.349111132,"data":"$ python scripts/train_dpo.py --track hh_rlhf --sft_checkpoint /kaggle/input/notebooks/rayyanhasib/cs5326-pa2-sft-run/project/outputs/sft/sft_run/checkpoints/best --output_dir outputs\n"}
+,{"stream_name":"stdout","time":76.917538178,"data":"The tokenizer you are loading from '/kaggle/input/notebooks/rayyanhasib/cs5326-pa2-sft-run/project/outputs/sft/sft_run/checkpoints/best' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.\n"}
+,{"stream_name":"stdout","time":76.919636459,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stdout","time":101.815003899,"data":"\n"}
+,{"stream_name":"stdout","time":101.951026736,"data":"Generating train split:   0%|          | 0/160800 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":102.051474422,"data":"Generating train split:   5%|▍         | 7672/160800 [00:00\u003c00:02, 55475.26 examples/s]\n"}
+,{"stream_name":"stdout","time":102.212167284,"data":"Generating train split:  10%|▉         | 15358/160800 [00:00\u003c00:02, 66181.50 examples/s]\n"}
+,{"stream_name":"stdout","time":102.409735509,"data":"Generating train split:  19%|█▉        | 30676/160800 [00:00\u003c00:01, 81880.27 examples/s]\n"}
+,{"stream_name":"stdout","time":102.575574228,"data":"Generating train split:  31%|███       | 49138/160800 [00:00\u003c00:01, 87435.54 examples/s]\n"}
+,{"stream_name":"stdout","time":102.733363959,"data":"Generating train split:  39%|███▉      | 62408/160800 [00:00\u003c00:01, 84774.49 examples/s]\n"}
+,{"stream_name":"stdout","time":102.93926104,"data":"Generating train split:  47%|████▋     | 75820/160800 [00:00\u003c00:01, 84758.24 examples/s]\n"}
+,{"stream_name":"stdout","time":103.181120994,"data":"Generating train split:  55%|█████▌    | 89143/160800 [00:01\u003c00:00, 77088.24 examples/s]\n"}
+,{"stream_name":"stdout","time":103.426794751,"data":"Generating train split:  61%|██████    | 97521/160800 [00:01\u003c00:01, 60484.11 examples/s]\n"}
+,{"stream_name":"stdout","time":103.574656563,"data":"Generating train split:  66%|██████▌   | 105939/160800 [00:01\u003c00:01, 50990.76 examples/s]\n"}
+,{"stream_name":"stdout","time":103.728415639,"data":"Generating train split:  71%|███████   | 113512/160800 [00:01\u003c00:00, 51018.22 examples/s]\n"}
+,{"stream_name":"stdout","time":103.879113299,"data":"Generating train split:  77%|███████▋  | 123909/160800 [00:01\u003c00:00, 55350.91 examples/s]\n"}
+,{"stream_name":"stdout","time":104.02944042,"data":"Generating train split:  84%|████████▎ | 134358/160800 [00:02\u003c00:00, 59112.80 examples/s]\n"}
+,{"stream_name":"stdout","time":104.185759307,"data":"Generating train split:  90%|████████▉ | 144714/160800 [00:02\u003c00:00, 61791.53 examples/s]\n"}
+,{"stream_name":"stdout","time":104.27150777599999,"data":"Generating train split:  96%|█████████▋| 155034/160800 [00:02\u003c00:00, 63037.39 examples/s]\n"}
+,{"stream_name":"stdout","time":104.272363636,"data":"Generating train split: 100%|██████████| 160800/160800 [00:02\u003c00:00, 65393.64 examples/s]\n"}
+,{"stream_name":"stdout","time":104.273060471,"data":"\n"}
+,{"stream_name":"stdout","time":104.399205754,"data":"Generating test split:   0%|          | 0/8552 [00:00\u003c?, ? examples/s]\n"}
+,{"stream_name":"stdout","time":104.399679262,"data":"Generating test split: 100%|██████████| 8552/8552 [00:00\u003c00:00, 67591.68 examples/s]\n"}
+,{"stream_name":"stdout","time":104.400536449,"data":"Generating test split: 100%|██████████| 8552/8552 [00:00\u003c00:00, 67369.90 examples/s]\n"}
+,{"stream_name":"stdout","time":107.542342157,"data":"/kaggle/working/project/src/dpo_train.py:133: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.\n"}
+,{"stream_name":"stdout","time":107.543208856,"data":"  scaler = torch.cuda.amp.GradScaler(enabled = policyDevice.type == \"cuda\")\n"}
+,{"stream_name":"stdout","time":6119.593556136,"data":"Best hh_rlhf DPO checkpoint: outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best\n"}
+,{"stream_name":"stdout","time":6123.809613375,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/added_tokens.json\n"}
+,{"stream_name":"stdout","time":6123.809645836,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/chat_template.jinja\n"}
+,{"stream_name":"stdout","time":6123.809651621,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/config.json\n"}
+,{"stream_name":"stdout","time":6123.809666879,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/generation_config.json\n"}
+,{"stream_name":"stdout","time":6123.809679193,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/merges.txt\n"}
+,{"stream_name":"stdout","time":6123.809682746,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/metadata.json\n"}
+,{"stream_name":"stdout","time":6123.809686159,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/model.safetensors\n"}
+,{"stream_name":"stdout","time":6123.809689385,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/optimizer_state_dict.pt\n"}
+,{"stream_name":"stdout","time":6123.809692811,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/special_tokens_map.json\n"}
+,{"stream_name":"stdout","time":6123.809696536,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/tokenizer.json\n"}
+,{"stream_name":"stdout","time":6123.809700007,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/tokenizer_config.json\n"}
+,{"stream_name":"stdout","time":6123.809703761,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/best/vocab.json\n"}
+,{"stream_name":"stdout","time":6123.80972396,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/added_tokens.json\n"}
+,{"stream_name":"stdout","time":6123.809728115,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/chat_template.jinja\n"}
+,{"stream_name":"stdout","time":6123.809731167,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/config.json\n"}
+,{"stream_name":"stdout","time":6123.809735244,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/generation_config.json\n"}
+,{"stream_name":"stdout","time":6123.80973878,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/merges.txt\n"}
+,{"stream_name":"stdout","time":6123.809742413,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/metadata.json\n"}
+,{"stream_name":"stdout","time":6123.809745918,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/model.safetensors\n"}
+,{"stream_name":"stdout","time":6123.809800576,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/optimizer_state_dict.pt\n"}
+,{"stream_name":"stdout","time":6123.809806078,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/special_tokens_map.json\n"}
+,{"stream_name":"stdout","time":6123.809810693,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/tokenizer.json\n"}
+,{"stream_name":"stdout","time":6123.809815701,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/tokenizer_config.json\n"}
+,{"stream_name":"stdout","time":6123.809820406,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/checkpoints/final/vocab.json\n"}
+,{"stream_name":"stdout","time":6123.809825107,"data":"outputs/dpo_hh_rlhf/hh_rlhf_run/metrics.jsonl\n"}
+,{"stream_name":"stderr","time":6129.105410196,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6129.105462245,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6129.278476455,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6129.278500201,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6140.418719043,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":6140.507864392,"data":"[NbConvertApp] Writing 18644 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":6143.039857693,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6143.551855076,"data":"[NbConvertApp] Writing 298046 bytes to __results__.html\n"}
+]

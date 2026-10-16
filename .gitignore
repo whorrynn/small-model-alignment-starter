@@ -1,2 +1,42 @@
+.venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.coverage
+.DS_Store
+
+# Downloaded HF datasets/models and student-generated training artifacts.
+# NOTE: data/persona_lora/ and eval_sets/ are provided, fixed course files --
+# they are tracked despite the data/ prefix below only matching cache dirs
+# this project doesn't use (we keep provided data under data/ and eval_sets/
+# explicitly, and never write bulk downloads there).
+# NOTE: these are anchored to the repo root (leading slash) so they only
+# catch local scratch runs. Without the anchor they'd also match
+# results/*/project/outputs/** below, which holds the metrics, generations,
+# and judged outputs the report's reproducibility section points to --
+# those stay tracked; only actual weights (*.safetensors/*.pt/...) and the
+# bundled tokenizer files are excluded, via the extension/path rules below.
+/outputs/
+/runs/
+/checkpoints/
+submission.zip
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+hf_cache/
+
+# Kaggle run downloads (kaggle/fetch_results.sh): keep metrics, checkpoint
+# metadata, generations, judgments, plots and logs; skip the copy of this repo
+# inside each notebook's output and the public base-model tokenizer files.
+kaggle_repo.zip
+results/*/project/src/
+results/*/project/scripts/
+results/*/project/data/
+results/*/project/eval_sets/hh_rlhf_eval_300_seed42.json
+results/*/project/submission_adapter.py
+results/*/project/pyproject.toml
+results/*/project/requirements.txt
+results/**/tokenizer.json
+results/**/vocab.json
+results/**/merges.txt
