@@ -23,7 +23,7 @@ SFT (`cs5326-pa2-sft-run`), HH-RLHF DPO (`cs5326-pa2-dpo-hh`), UltraFeedback DPO
 
 ## 14.1 Repository, Models, and Data
 
-- GitHub repository link: **TODO (student fork URL)**. The working tree started from `ahmad903501/small-model-alignment-starter`.
+- GitHub repository link: **https://github.com/whorrynn/small-model-alignment-starter**. The working tree started from `ahmad903501/small-model-alignment-starter`.
 - Base checkpoint: `Qwen/Qwen2.5-0.5B` (base, not instruct). LoRA base: `HuggingFaceTB/SmolLM2-360M-Instruct`.
 - **SFT data:** `HuggingFaceH4/ultrachat_200k`, split `train_sft` (207,865 rows), shuffled with seed 42. Only the first user/assistant exchange is kept. 30,000 train / 1,000 val.
 - **HH-RLHF data:** `Anthropic/hh-rlhf` `train` (160,800 rows), shuffled with seed 42. Only single-turn rows are kept (exactly one `Human:` turn); the prompt, chosen reply and rejected reply are parsed from the shared conversation string. 15,000 train / 1,000 val pairs.
